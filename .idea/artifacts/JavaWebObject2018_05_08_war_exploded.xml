@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="JavaWebObject2018_05_08:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWebObject2018_05_08_war_exploded</output-path>
+    <root id="archive" name="JavaWebObject2018_05_08_war exploded.war">
+      <element id="javaee-facet-resources" facet="JavaWebObject2018_05_08/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaWebObject2018_05_08" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
