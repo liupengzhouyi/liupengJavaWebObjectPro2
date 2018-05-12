@@ -10,6 +10,7 @@
 <head>
     <title>新用户信息录入</title>
     <link rel="stylesheet" type="text/css" href="cssForUserAdd.css">
+    <link rel="script" href="lpWeb_2018_05_11_01/nameAdnPassword.js">
 </head>
 <body>
 <center>
@@ -21,7 +22,7 @@
         <br>
         密&nbsp;&nbsp;码: <input name="password" type="password" maxlength="45">
         <br>
-        <input type="submit" value="提交">
+        <input type="submit" value="提交" onclick="nameAndPassword()">
     </form>
 </center>
 </body>

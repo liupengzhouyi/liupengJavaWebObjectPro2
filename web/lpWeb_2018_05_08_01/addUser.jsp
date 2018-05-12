@@ -17,6 +17,16 @@
     String username = request.getParameter("username") ;
     String password = request.getParameter("password") ;
 
+    if (username == null) {
+        %>
+        //用户名没有填写
+        <%
+    } else if (password == null) {
+        %>
+        //密码没有填写
+        <%
+    }
+
     Connection lpConnectionForAddUser = new linkDatabase().getLpConnection();
 
     Statement lpStatementForAddUser = lpConnectionForAddUser.createStatement();
